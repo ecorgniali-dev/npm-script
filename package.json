@@ -1,0 +1,23 @@
+{
+  "name": "npm-script-ecorgniali",
+  "version": "1.0.0",
+  "description": "Ejemplo de librería propia en NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecorgniali-dev/npm-script-ecorgniali.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ecorgniali-dev/npm-script-ecorgniali/issues"
+  },
+  "homepage": "https://github.com/ecorgniali-dev/npm-script-ecorgniali#readme",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
