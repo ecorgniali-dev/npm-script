@@ -1,6 +1,21 @@
 const calculator = require('../index');
+const { expect } = require('chai');
 
-console.log(calculator.suma(2, 2));
-console.log(calculator.resta(2, 2));
-console.log(calculator.multiplicacion(2, 2));
-console.log(calculator.division(2, 2));
+describe('Test Calculator', () => {
+    it('Suma', () => {
+        const result = calculator.suma(2, 2)
+        expect(result).to.equal(4)
+    })
+    it('Resta', () => {
+        const result = calculator.resta(2, 2)
+        expect(result).to.equal(0)
+    })
+    it('Multiplicación', () => {
+        const result = calculator.multiplicacion(2, 2)
+        expect(result).to.equal(4)
+    })
+    it('División', () => {
+        const result = calculator.division(2, 2)
+        expect(result).to.equal(1)
+    })
+})

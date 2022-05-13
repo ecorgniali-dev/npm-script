@@ -4,14 +4,14 @@
   "description": "Ejemplo de librería propia en NPM",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ecorgniali-dev/npm-script-ecorgniali.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["calculator"],
+  "author": "Eduardo Corgniali",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ecorgniali-dev/npm-script-ecorgniali/issues"
@@ -19,5 +19,9 @@
   "homepage": "https://github.com/ecorgniali-dev/npm-script-ecorgniali#readme",
   "dependencies": {
     "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
   }
 }
